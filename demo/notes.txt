@@ -20,8 +20,30 @@ Why do we need kNN?
 
 3. When do we use kNN?
 
-+ We 
++ We can use kNN when:
+    -> data is labeled
+    -> data is noise free
+    -> dataset is small (becouse kNN is a 'lazy learner' i.e. doesn't learn a discriminative function from the training set
 
-How does kNN Algorithm work?
+
+4. How does kNN Algorithm work?
+
++ Consider a dataset having two variables: height and weight and each point is classified as Normal or Underweight
+
+Weight  Height(y2) Class
+51      167        Underweight
+62      182        Normal
+69      176        Normal
+64      173        Normal
+65      172        Normal
+56      174        Underweight
+
+On the basis of the giver data we have to classify the below set as Normal or Underweight using kNN.
+
+57 kg 170 cm ?
+
++ According to the Euclidean distance formula, the distance between two points in the plane with coordinates (x,y) and (a,b) is given by:
+    -> dist(d) = sqrt((x-a)**2 + (y-b)**2)  
+
 
 Use Case: Predict whether a person will have diabetes or not.
