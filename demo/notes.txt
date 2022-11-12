@@ -1,0 +1,27 @@
+Why do we need kNN?
+
+1. What is kNN?
+
++ kNN - K nearest Neighbors, is one of the simples Supervised machine Learning algorithm mostly use for Classification
+
++ It classifies a data point based on how its neighbors are classified
+
++ Knn stores all available cases and classifies new cases based on a similarity measure
+
+
+2. How we choose the factor "k"?
+
++ kNN Algorithm is based on feature similarity: Choosing the right value of k is a process called parameter tuning, and is important for better accuraacy
+
++ T choose a value of k:
+    -> Sqrt(n), where n is the total number of data points
+    -> Odd value of k is selected to avoid confusion between two classes of data
+    
+
+3. When do we use kNN?
+
++ We 
+
+How does kNN Algorithm work?
+
+Use Case: Predict whether a person will have diabetes or not.
